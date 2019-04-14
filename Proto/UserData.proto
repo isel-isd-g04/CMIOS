@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package SharedModels;
+
+message Citizen {
+   string IDNumber = 1;
+   string NIF = 2;
+   string Name = 3;
+   string Address = 4;
+   string NIB = 5;
+}
+
