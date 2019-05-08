@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\Proto\ValidationModels.proto" Generator="MSBuild:Compile" />
-    <Protobuf Include="..\Proto\UserData.proto" Generator="MSBuild:Compile" />
-    <Protobuf Include="..\Proto\ValidationService.proto" GrpcServices="Client" Generator="MSBuild:Compile" />
+    <Protobuf Include="..\..\Proto\ValidationModels.proto" Generator="MSBuild:Compile" />
+    <Protobuf Include="..\..\Proto\UserData.proto" Generator="MSBuild:Compile" />
+    <Protobuf Include="..\..\Proto\ValidationService.proto" GrpcServices="Client" Generator="MSBuild:Compile" />
     <Content Include="@(Protobuf)" />
     <None Remove="@(Protobuf)" />
   </ItemGroup>
