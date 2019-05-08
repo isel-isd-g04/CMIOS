@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package SharedModels;
+package ValidationModels;
 
 message ValidationRequest {
 	 string CodeCSMP = 1;
@@ -11,8 +11,6 @@ message ValidationRequest {
 	 string ValidatorID = 6;
 	 string Price = 7;
 }
-
-
 
 
 message ValidationReply{

@@ -1,4 +1,6 @@
 
-ValidationService/\.vs/
+ValidationServiceClient/\.vs/
 
-ValidationService/ValidationService/obj/
+ValidationServiceClient/bin/
+
+ValidationServiceClient/obj/
