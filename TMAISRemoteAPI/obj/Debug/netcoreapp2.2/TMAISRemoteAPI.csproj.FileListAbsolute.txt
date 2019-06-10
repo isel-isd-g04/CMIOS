@@ -1,0 +1,14 @@
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\bin\Debug\netcoreapp2.2\TMAISRemoteAPI.deps.json
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\bin\Debug\netcoreapp2.2\TMAISRemoteAPI.runtimeconfig.json
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\bin\Debug\netcoreapp2.2\TMAISRemoteAPI.runtimeconfig.dev.json
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\bin\Debug\netcoreapp2.2\TMAISRemoteAPI.dll
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.csprojAssemblyReference.cache
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.csproj.CoreCompileInputs.cache
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.RazorAssemblyInfo.cache
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.RazorAssemblyInfo.cs
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.AssemblyInfoInputs.cache
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.AssemblyInfo.cs
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.RazorTargetAssemblyInfo.cache
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\bin\Debug\netcoreapp2.2\TMAISRemoteAPI.pdb
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.dll
+D:\projects\ISD\CMIOS\TMAISRemoteAPI\obj\Debug\netcoreapp2.2\TMAISRemoteAPI.pdb

@@ -4,3 +4,7 @@ ValidationServiceClient/\.vs/
 ValidationServiceClient/bin/
 
 ValidationServiceClient/obj/
+
+CMOIValidationService/bin/
+
+CMOIValidationService/obj/
