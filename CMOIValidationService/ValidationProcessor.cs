@@ -42,18 +42,15 @@ namespace CMOIValidationService
             catch (Exception excp)
             {
                 Console.WriteLine(excp.Message);
+                //If we dont connect we blow up until we can, docker will restart the process
+                throw excp;
             }
         }
-
-
 
         public bool ValidateUser(ValidationRequest request)
         {
             try
             {
-                // Create a client with the channel
-               // var client = new ValidationService.ValidationService.ValidationServiceClient(_grpChannel);
-
                 request.CodeCSMP = Helpers.CMSPCode;
                 request.CMOINIB = Helpers.CMOIIBAN;
                 request.CMOINIF = Helpers.CMOINIF;

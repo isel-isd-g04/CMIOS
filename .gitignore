@@ -8,3 +8,11 @@ ValidationServiceClient/obj/
 CMOIValidationService/bin/
 
 CMOIValidationService/obj/
+
+Validator/obj/
+
+Validator/bin/
+
+TMAISRemoteAPI/obj/
+
+CMOIValidationService/\.vs/
