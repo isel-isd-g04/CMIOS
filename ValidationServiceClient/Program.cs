@@ -32,16 +32,15 @@ namespace ValidationServiceClient
                 // Create a client with the channel
                 var client = new ValidationService.ValidationService.ValidationServiceClient(channel);
 
-
-
+                
                 // Create a request
                 ValidationModels.ValidationRequest request = new ValidationRequest
                 {
-                    CodeCMIO = "tst",
+                    CMOINIB = "tst",
                     CodeCSMP = "sad",
                     DateTime = DateTime.Now.Ticks,
                     PositionGPS = "bolhas",
-                    Price = "5.5",
+                    Price = (float) 5.5  ,
                     UserFiscalNumber = "234",
                     ValidatorID = "ID-validator"
                 };

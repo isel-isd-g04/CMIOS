@@ -10,12 +10,15 @@ namespace Validator
 
         public static string RemoteAPI;
 
+        public static float Price;
 
         public static void ReadConfigs()
         {
             UserNIF = ConfigurationManager.AppSettings["user-nif"];
             UserIBAN = ConfigurationManager.AppSettings["user-iban"];
             RemoteAPI = ConfigurationManager.AppSettings["remote-api"];
+            Price = float.Parse(ConfigurationManager.AppSettings["price"]);
+
 
         }
 
