@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationServiceClient", "ValidationServiceClient.csproj", "{B21C32DE-08A0-48F8-8925-502DD4E1E709}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator", "..\Validator\Validator.csproj", "{7FB679FA-EFA2-4D55-B65B-2B9CAA4241A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMOIValidationService", "..\CMOIValidationService\CMOIValidationService.csproj", "{4717FECD-4C90-4691-8C37-88B63339BAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMAISRemoteAPI", "..\TMAISRemoteAPI\TMAISRemoteAPI.csproj", "{8BB6121E-565B-4CC5-8793-73B973BB14AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B21C32DE-08A0-48F8-8925-502DD4E1E709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B21C32DE-08A0-48F8-8925-502DD4E1E709}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B21C32DE-08A0-48F8-8925-502DD4E1E709}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B21C32DE-08A0-48F8-8925-502DD4E1E709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB679FA-EFA2-4D55-B65B-2B9CAA4241A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB679FA-EFA2-4D55-B65B-2B9CAA4241A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB679FA-EFA2-4D55-B65B-2B9CAA4241A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB679FA-EFA2-4D55-B65B-2B9CAA4241A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4717FECD-4C90-4691-8C37-88B63339BAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4717FECD-4C90-4691-8C37-88B63339BAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4717FECD-4C90-4691-8C37-88B63339BAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4717FECD-4C90-4691-8C37-88B63339BAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB6121E-565B-4CC5-8793-73B973BB14AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB6121E-565B-4CC5-8793-73B973BB14AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB6121E-565B-4CC5-8793-73B973BB14AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB6121E-565B-4CC5-8793-73B973BB14AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
